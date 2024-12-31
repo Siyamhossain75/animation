@@ -1,0 +1,19 @@
+.container{
+    height: 1000px;
+}
+.container:hover .bat{
+    transform: rotate(-70deg);
+    transform-origin: top right;
+    transition: transform 0.2s ease-in;
+    
+}
+.ball{
+    width: 90px;
+    position: relative;
+    left: 50px;
+    bottom: -150px;
+    transition: transfrom 2s ease-out 0.5s;
+}
+.container:hover .ball{
+    transform: translate(200px, -250px);
+}
